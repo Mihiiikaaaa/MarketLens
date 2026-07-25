@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     APP_NAME: str
     APP_VERSION: str
     DEBUG: bool
-
+    NEWS_API_KEY: str
     DATABASE_URL: str
 
     model_config = SettingsConfigDict(
